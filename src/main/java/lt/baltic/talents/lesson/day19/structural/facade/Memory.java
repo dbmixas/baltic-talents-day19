@@ -1,0 +1,9 @@
+package lt.baltic.talents.lesson.day19.structural.facade;
+
+public class Memory {
+
+    public void load(long position, byte[] data) {
+        System.out.println("Memory load to " + position);
+    }
+
+}
